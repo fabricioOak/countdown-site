@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Essa mizera</a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <img src="imgs/curve.png" class="curve">
+        <div class="contentBx">
+            <h2>Dias pra acabar o período</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur ipsa tempore incidunt ipsam perferendis laboriosam, inventore neque quis accusamus blanditiis numquam quam vel labore cum quidem. Omnis animi repellat commodi!</p>
+            <div class="countdown">
+                <div class = "time"><div id="day"></div><span>Days</span></div>
+                <div class = "time"><div id="hour"></div><span>Hours</span></div>
+                <div class = "time"><div id="minute"></div><span>Minutes</span></div>
+                <div class = "time"><div id="second"></div><span>Seconds</span></div>
+            </div>
+            <a onclick="newsletter()" href="#">Notify Me!</a>
+        </div>
+        <div class="imgBx">
+            <img src="imgs/man.png" class="man">
+        </div>
+        <ul class="sci">
+            <li>
+                <a href="#"><img src="imgs/instagram.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="imgs/twitter.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="imgs/facebook.png"></a>
+            </li>
+            
+        </ul>
+    </section>
+    <div class="newsletter">
+        <h2>Stay Tuned</h2>
+        <p>Get notified at launch</p>
+        <div class="inputBox">
+            <form>
+                <input type="email" required ="" placeholder="Enter Email Address">
+                <input type="submit" value="Submit">
+            </form>
+            <img onclick="newsletter()" src="imgs/close.png" class="close">
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
