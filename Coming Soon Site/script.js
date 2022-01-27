@@ -1,4 +1,4 @@
-var countDate = new Date('Jul 14, 2020 00:00:00').getTime();
+var countDate = new Date('Jun 12, 2022 00:00:00').getTime();
 
 function counter() {
 	var now = new Date().getTime();
@@ -20,7 +20,7 @@ function counter() {
 	document.getElementById('second').innerText = s;
 }
 
-setInterval(function() {
+setInterval(function () {
 	counter();
 }, 1000);
 
